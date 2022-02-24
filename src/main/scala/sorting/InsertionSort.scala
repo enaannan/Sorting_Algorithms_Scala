@@ -1,0 +1,5 @@
+package sorting
+
+class InsertionSort {
+
+}
