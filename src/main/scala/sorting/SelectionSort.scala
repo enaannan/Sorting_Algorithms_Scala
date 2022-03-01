@@ -12,37 +12,6 @@ complexity is 0(n^2)
 
 object SelectionSort {
 
-//  def minIndex(arr:Array[Int]):Int={
-//    var min:Int = 0
-//    var index = 0
-//
-//    for(i<- arr.indices){
-//      if(arr(i) < min) {
-//        min = arr(i)
-//      index = i
-//      }
-//    }
-//    index
-//  }
-//
-//  def swap(arr:Array[Int],source:Int,target:Int):Array[Int]= {
-//    val temp = arr(target)
-//    arr(target) = arr(source)
-//    arr(source) = temp
-//    arr
-//  }
-//
-//def sort(arr:Array[Int]= Array[Int]()): Unit = {
-//
-//
-//  var currentPos = 0
-//
-//    val index = minIndex(arr)
-//    val partiallySorted = swap(arr,index,currentPos)
-//}
-
-
-
     def min(arr:Array[Int]):(Int,Int)={
       var min:Int = arr(0)
       var index = 0
